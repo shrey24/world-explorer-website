@@ -1,0 +1,242 @@
+<html>
+<head>
+	<title> World Explorer </title>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+	<style type="text/css">
+
+	#page{
+		width: 1200px;
+		height: 2000px;
+		background-color: #f6f6f6;
+		position: relative;
+		margin-left: 25px;
+		box-shadow: 0px 3px 3px;
+
+	}
+
+	.welcome_head{
+		width: 100%;
+		height: 400px;
+		background-image: url('./resources/welcome1.jpg');
+
+		background-color: #5a57f6;
+		background-repeat: no-repeat;
+		background-size: 100% 400px;
+		font-family: "Helvetica Neue", Helvetica , sans-serif;
+		font-size: 50px;
+		color: #ffffff;
+		text-align: center;
+		vertical-align: middle;
+	}
+/*--horizontal nav----------------------*/
+	
+
+	ul.h_nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+	li.h_nav {
+	    float: left;
+	    border-right:1px solid #bbb;
+	}
+
+	li.h_nav:last-child {
+	    border-right: none;
+	}
+
+	li a.h_nav {
+	    display: block;
+	    color: white;
+	    text-align: center;
+	    padding: 14px 16px;
+	    text-decoration: none;
+	    font-family:  Arial;
+	}
+
+	li a.h_nav:hover:not(.active) {
+	    background-color: #111;
+	}
+
+	.active {
+	    background-color: #4CAF50;
+	}
+/*----------------------------------*/
+
+.main{
+    float:left ;
+	width: 900px;
+	height: 1400px; 
+	margin-left: 50px;
+	background-color: #ffffff ;/*#00b85c;*/
+	/*padding-top: 10px*/
+
+}	
+.Rside{
+	float: right;
+	background-color: #ebebeb;
+	width: 250px;
+	height: 1400px; 
+}
+
+.countryDock{
+	height: 300px;
+	width: 600px;
+	margin: auto;
+}
+
+.click_photo{
+	display: block;
+	width: 300px;
+    height:300px;
+    float: left;
+    text-decoration: none;
+    /*margin: 20px 0px 20px 20px;*/ /*top right bottom left*/
+    background-size: 300px 300px;
+    overflow: hidden;
+    background-color: #6cf655;
+    background-image: url('malesia.jpg');
+    background-repeat: no-repeat;
+
+
+/*
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #6cf666;
+    */
+}
+.photo_discribsion{
+	width: 300px;
+	height: 300px;
+	float: left;
+	font-family: Helvetica, sans-serif;
+	font-size: 40px;
+	color:  #f6f5d4;
+	background-color: #4849f6;
+	text-align: center;
+	vertical-align: middle;
+}
+.footer{
+	background-color: #282828;
+	color: #fbfbfb;
+	height: 400px;
+	width: 100%;
+}
+
+
+	</style>
+</head>
+
+<body>
+
+<div id="page">
+
+<div class="welcome_head">
+<p> <br><br>Welcome to the World Explorer
+</div>
+
+<div class="h_nav">
+<ul class="h_nav">
+  <li class="h_nav"><a class="active h_nav" href="#home">Home</a></li>
+  <li class="h_nav"><a class="h_nav" href="#news">services</a></li>
+  <li class="h_nav"><a class="h_nav" href="#contact">packages</a></li>
+  <li class="h_nav"><a class="h_nav" href="#contact">countries</a></li>
+  <li class="h_nav"><a class="h_nav" href="#contact">contact</a></li>
+  <li class="h_nav" style="float:right"><a class="h_nav" href="#about">About</a></li>
+</ul>
+
+</div>
+
+
+	<div class="main">
+		<div class='container' style="margin: auto">
+		<div class='jumbotron' style="margin: auto">
+		<p> Welcome to the World Explorer! This site is an indispensible part of all who want to travel
+			<br> across various destinos.<br> We provide you with all information you need to make a successful trip in any country.</p>
+		</div>
+		</div>
+
+
+		<div class="countryDock">
+
+			<a class="click_photo" href="https://www.facebook.com">	</a>
+			<div class="photo_discribsion">
+				<br><br>
+				Malaysia
+				<!-- <ul> <li  style="float: left; font-size:18px; color:#dfdebf;">  Kuala Lumpur </li>
+					 <li  style="float: left; font-size:18px; color:#dfdebf;">  island of Langkawi </li>
+					 <li  style="float: left; font-size:18px; color:#dfdebf;">  Perhentian Island </li>
+					 <li  style="float: left; font-size:18px; color:#dfdebf;">  Mount Kinabalu  </li>
+				</ul> -->	 	
+				<p style="float: left; font-size:18px; color:#dfdebf;">Kuala Lumpur, island of Langkawi, Perhentian Island, Mount Kinabalu, and lot more...</p>
+			</div>
+		</div>
+
+
+		<div class="countryDock">
+			<div class="photo_discribsion">
+				<br><br>
+				Dubai
+				<p style="float: left; font-size:18px; color:#dfdebf;">Burj Khalifa, Dubai Museum, Jumeirah Mosque, Deira Souks and lot more...</p>
+			</div>
+			<a class="click_photo" style="background-image: url('./resources/dubai.jpg');" href="Country_page Dubai.html">	</a>
+			
+		</div>
+
+		<div class="countryDock">
+			
+			<a class="click_photo" style="background-image: url('./resources/switzerland.jpg');" href="https://www.facebook.com">	</a>
+			<div class="photo_discribsion">
+				<br><br>
+				Switzerland
+				<p style="float: left; font-size:18px; color:#dfdebf;">Geneva, The Matterhorn, Mt. Pilatus,  St. Gallen and lot more...</p>
+			</div>
+		</div>
+
+		<div class="countryDock">
+			<div class="photo_discribsion">
+				<br><br>
+				USA
+				<p style="float: left; font-size:18px; color:#dfdebf;">Las Vegas, New York, Florida, Chicago and lot more...</p>
+			</div>
+			<a class="click_photo" style="background-image: url('./resources/usa.jpg');" href="https://www.facebook.com">	</a>
+			
+		</div>
+
+		
+
+
+
+
+	</div>
+
+	<div class="Rside">
+		<div style="margin-left:20px">
+		<br><br>
+		<form action="http://localhost/World%20Explorer/signin.php">
+			<input type=submit value="Sign in">
+		</form>
+		<br>or 
+		<a href="http://localhost/World%20Explorer/register.php">Register</a>
+		</div>	
+
+	</div>
+
+
+
+
+
+</div>
+<div class="footer">
+	<br>
+	<h4> &nbsp; feedback</h4>
+	</div>
+
+<script src="./js/jquery-2.2.0.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
